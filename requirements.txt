@@ -1,0 +1,5 @@
+numpy >= 1.19.5
+pandas
+matplotlib >= 3.6.2
+scipy
+xarray
