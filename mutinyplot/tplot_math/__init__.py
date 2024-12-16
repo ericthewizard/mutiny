@@ -15,7 +15,6 @@ from .multiply import multiply
 from .spec_mult import spec_mult
 from .split_vec import split_vec
 from .subtract import subtract
-from .pwr_spec import pwr_spec
 from .clean_spikes import clean_spikes
 from .tsmooth import tsmooth, smooth
 from .tdotp import tdotp
