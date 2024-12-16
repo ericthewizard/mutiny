@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Install dependencies
       run: |
-        python -p pip install --upgrade pip
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run linter
       run: |
