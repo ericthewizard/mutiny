@@ -117,3 +117,6 @@ var/
 sdist/
 eggs/
 wheels/
+
+# PNG files created by the test suite
+*.png

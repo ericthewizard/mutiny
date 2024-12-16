@@ -131,3 +131,7 @@ def test_nans_log_scale():
     options('test_spec_nan', 'spec', True)
     options('test_spec_nan', 'zlog', True)
     tplot('test_spec_nan', display=False, save_png=current_directory + 'nans_zlog_regression')
+
+
+if __name__ == '__main__':
+    unittest.main()
