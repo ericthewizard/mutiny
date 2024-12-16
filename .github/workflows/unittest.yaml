@@ -17,4 +17,4 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics --max-line-length=127
     - name: Run unit tests
       run: |
-        python -m mutinyplot.tests.tests
+        python -m tests.tests
