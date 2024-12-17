@@ -5,6 +5,7 @@ mutiny is a Python library designed for visualizing and analyzing time series da
 # Usage
 
 | Function | Usage |
+| --- | --- | 
 | mutiny.store| Create a variable |
 | mutiny.get | Get the data from a variable |
 | mutiny.plot | Plot variable(s) |
