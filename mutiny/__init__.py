@@ -51,7 +51,7 @@ lim_info = {}
 extra_layouts = {}
 
 from .store_data import store_data, store
-from .tplot import tplot
+from .tplot import tplot, plot
 from .get_data import get_data, get
 from .xlim import xlim
 from .ylim import ylim
