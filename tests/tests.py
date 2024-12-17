@@ -1,7 +1,7 @@
 import numpy as np
-import mutinyplot
-from mutinyplot import store, tplot, options
-from mutinyplot import get_data, store_data, options, tplot_options, tlimit, timebar
+import mutiny
+from mutiny import store, tplot, options
+from mutiny import get_data, store_data, options, tplot_options, tlimit, timebar
 import os
 
 current_directory = os.path.dirname(os.path.realpath(__file__)) + os.path.sep

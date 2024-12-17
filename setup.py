@@ -11,7 +11,7 @@
 
 #Note: You'll need to make sure cdflib is up to date on conda as well
 
-#Run: conda skeleton pypi mutinyplot
+#Run: conda skeleton pypi mutiny
 #This should generate a meta.yaml file
 #Edit the YAML file so that the requirements/about/extra look like this:
 
@@ -35,10 +35,10 @@ requirements:
     - cdflib
 
 about:
-  home: "https://github.com/MAVENSDC/mutinyplot"
+  home: "https://github.com/MAVENSDC/mutiny"
   license: "MIT"
-  summary: "mutinyplot is an effort to replicate the functionality IDL tplot library in python"
-  doc_url: "https://github.com/MAVENSDC/mutinyplot"
+  summary: "mutiny is an effort to replicate the functionality IDL tplot library in python"
+  doc_url: "https://github.com/MAVENSDC/mutiny"
   dev_url: "https://github.com/MAVENSDC/pyptlot"
 
 extra:
@@ -48,9 +48,9 @@ extra:
 
 
 
-#conda-build mutinyplot
-#conda-build --python 3.6 mutinyplot
-#conda-build --python 3.5 mutinyplot
+#conda-build mutiny
+#conda-build --python 3.6 mutiny
+#conda-build --python 3.5 mutiny
 #This should put stuff in C:/Anaconda/conda-bld
 #conda convert -f --platform all /path/to/created/bundles/file.tar.bz2 -o /path/to/place/converted/files
 #anaconda upload /path/to/created/or/converted/bundles/file.tar.bz2

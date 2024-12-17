@@ -1,0 +1,39 @@
+{% set name = "mutiny" %}
+{% set version = "2.2.50" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  git_url: https://github.com/MAVENSDC/mutiny.git
+  git_rev: v2.2.50
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  build:
+    - setuptools
+    - python
+    - pip
+  run:
+    - python
+    - numpy
+    - pandas
+    - matplotlib
+    - scipy
+    - xarray
+    - cdflib
+    - python-dateutil
+
+about:
+  home: "https://github.com/MAVENSDC/mutiny"
+  license: "MIT"
+  summary: "mutiny is an effort to replicate the functionality IDL tplot library in python"
+  doc_url: "https://mutiny.readthedocs.io"
+  dev_url: "https://github.com/MAVENSDC/pyptlot"
+
+extra:
+  recipe-maintainers:
+    - MAVENSDC
